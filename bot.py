@@ -23,7 +23,7 @@ from telegram.ext import (
 
 # --- настройки -------------------------------------------------
 BOT_TOKEN = '7781913191:AAGmxczdLZv6g4Vsw6sK_aJvOHEEKMcBX50'            # вставьте токен бота
-ALLOWED_USERNAMES = {  'SupaShopz', 'SpammBotss' } # кому разрешено пользоваться
+ALLOWED_USERNAMES = {  'SupaShopz', 'SpammBotsss' } # кому разрешено пользоваться
 STATE_WAIT = 'await_broadcast'      # флаг ожидания сообщения
 registered_chats = []               # список чатов
 
@@ -145,3 +145,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
